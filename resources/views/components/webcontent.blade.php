@@ -37,7 +37,7 @@
     <div class="flex justify-center flex-wrap">
         <div class="sm:mx-14 mx-5 w-full h-auto bg-white rounded-[30px] drop-shadow-2xl font-sans">
             <div class="flex flex-row items-center justify-between">
-                <div class="max-w-[600px] sm:pl-10 px-4 space-y-6 py-5 sm:text-left text-center sm:inline flex items-center flex-col ">
+                <div class="max-w-[620px] sm:pl-10 px-4 space-y-6 py-5 sm:text-left text-center sm:inline flex items-center flex-col">
                     <img class="w-24" src="{{ asset('images/logo.webp') }}" alt="hypedeck-logo">
                     <div class="font-bold lg:text-4xl text-2xl text-[#012F6A]">Empowering marketing artistry <br>
                         through technology</div>
@@ -54,8 +54,5 @@
     </div>
 </section>
 
-
-
 <section class="h-[960px] bg-[#EFF4FF]">
-
 </section>
