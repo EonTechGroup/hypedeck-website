@@ -11,7 +11,8 @@
     <x-header></x-header>
 </header>
 
-<main class="pt-20">
+<main>
+    <x-webcontent/>
     <x-footer></x-footer>
 </main>
 </body>
