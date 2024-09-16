@@ -33,6 +33,7 @@
         </div>
     </div>
 </section>
+
 <section id="services" class="lg:h-[180px] sm:h-[140px] h-[100px] w-full bg-white mt-10">
     <div class="flex justify-center flex-wrap">
         <div class="sm:mx-14 mx-5 w-full h-auto bg-white rounded-[30px] drop-shadow-2xl font-sans">
@@ -56,3 +57,5 @@
 
 <section class="h-[960px] bg-[#EFF4FF]">
 </section>
+
+<x-fivestep/>
