@@ -21,11 +21,9 @@
 </body>
 <script>
     function openAnsSection(val) {
-        // Close all other open FAQs
         var allParas = document.querySelectorAll('[id^="para"]');
         var allSvgs = document.querySelectorAll('[id^="path"]');
         var allFaqs = document.querySelectorAll('[id^="faq"]');
-
 
         allParas.forEach((para, index) => {
             if (para.id !== "para" + val) {
@@ -38,13 +36,11 @@
             }
         });
 
-        // Toggle the clicked FAQ
         var p = document.getElementById("para" + val);
         var svg = document.getElementById("path" + val);
         var faq = document.getElementById("faq" + val);
 
         if (p.classList.contains("hidden")) {
-            // Show answer section and apply active styles
             p.classList.remove("hidden");
             p.classList.add("block");
             svg.classList.remove("block");
@@ -55,10 +51,9 @@
     }
 
     function openFirstFAQ() {
-        openAnsSection(1); // Assuming the first FAQ has val=1
+        openAnsSection(1);
     }
 
-    // Call openFirstFAQ when the page loads
     window.onload = openFirstFAQ;
 </script>
 
