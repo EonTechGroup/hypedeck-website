@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ env('APP_NAME') }}</title>
-    @vite(['resources/css/app.css', 'resource/js/app.js'])
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 </head>
 
 <body>
@@ -18,6 +21,10 @@
         <x-webcontent />
         <x-footer></x-footer>
     </main>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="resources\js\app.js"></script>
 </body>
 <script>
     function openAnsSection(val) {
