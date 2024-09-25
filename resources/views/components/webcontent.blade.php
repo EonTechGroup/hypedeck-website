@@ -1,18 +1,18 @@
 {{--hero section--}}
 <section class="h-[102vh]">
-    <div class="relative sm:px-24 px-5" style="background: url('{{ asset('images/home-image.webp') }}'); background-repeat: no-repeat; height:100%; width: auto; background-size: cover; background-position: center">
-        <div class="font-sans text-white pt-32 sm:block flex flex-col sm:text-left text-center ">
-            <div class="font-sans font-normal xl:text-6xl lg:text-5xl sm:text-4xl text-2xl sm:pb-5 pb-3">
+    <div class="relative md:px-24 sm:px-10 px-5" style="background: url('{{ asset('images/home-image.webp') }}'); background-repeat: no-repeat; height:100%; width: auto; background-size: cover; background-position: center">
+        <div class="font-sans text-white sm:pt-32 pt-28 sm:block flex flex-col sm:text-left text-center ">
+            <div class="font-sans font-normal xl:text-6xl lg:text-5xl sm:text-4xl text-2xl sm:pb-5 pb-0">
                 Struggling to find
             </div>
             <div class="font-sans font-black xl:text-6xl lg:text-5xl sm:text-4xl text-2xl">
                 Leads / E-Commerce Sales?
             </div>
             <div>
-                <div class="font-sans font-medium xl:text-4xl lg:text-3xl sm:text-2xl text-xl sm:py-10 py-4">
+                <div class="font-sans font-medium xl:text-4xl lg:text-3xl sm:text-2xl text-xl md:py-10 sm:py-6 py-4">
                     We got you covered
                 </div>
-                <p class="font-sans font-normal xl:text-xl lg:text-lg sm:text-base text-sm">
+                <p class="font-sans font-normal xl:text-xl lg:text-xl sm:text-lg text-base">
                     With successfully completing 200+ Digital marketing campaigns <br>
                     we have tailored marketing strategies which suit your exact marketing need.. <br>
                     From social media management to web development
@@ -54,5 +54,5 @@
     </div>
 </section>
 
-<section class="h-[960px] bg-[#EFF4FF]">
+<section class="h-[300px] bg-[#EFF4FF]">
 </section>
