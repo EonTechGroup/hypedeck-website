@@ -23,6 +23,7 @@
     <meta name="twitter:image" content="https://hypedeckdigital.com/assets/preview-image.png">
 
     <title>{{env('APP_NAME')}}</title>
+    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon"/>
     @vite(['resources/css/app.css', 'resource/js/app.js'])
 </head>
 <body>
