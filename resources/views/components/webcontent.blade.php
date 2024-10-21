@@ -1,4 +1,3 @@
-{{-- hero section --}}
 <section class="h-[102vh]">
     <div class="relative sm:px-24 px-5"
         style="background: url('{{ asset('images/home-image.webp') }}'); background-repeat: no-repeat; height:100%; width: auto; background-size: cover; background-position: center">
