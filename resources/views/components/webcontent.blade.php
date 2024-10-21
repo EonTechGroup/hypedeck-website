@@ -62,11 +62,3 @@
         </div>
     </div>
 </section>
-
-<section class="h-[960px] bg-[#EFF4FF]">
-</section>
-
-<x-fivestep />
-<x-cusreview />
-<x-toolsandteam />
-<x-pricingandfaq/>
