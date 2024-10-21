@@ -51,20 +51,24 @@
     opacity: 1;
 }
 
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before {
-    opacity: .25;
-}
-
+/* Modify arrow colors */
 .slick-prev:before,
 .slick-next:before {
     font-family: 'slick';
     font-size: 20px;
     line-height: 1;
     opacity: .75;
-    color: white;
+    color: red; /* Default arrow color */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+    color: blue; /* Arrow color on hover */
 }
 
 .slick-prev {
@@ -113,22 +117,21 @@
     flex-wrap: wrap; /* Allow wrapping onto the next line */
     justify-content: center; /* Center dots horizontally */
     align-items: center; /* Center dots vertically */
-    gap: 10px; /* Space between dots */
     width: 100%;
     padding: 0px 10px;
-    margin:0;
+    margin: 0;
     list-style: none;
     text-align: center;
 }
 
 .slick-dots li {
     position: relative;
-    display: inline-flex; /* Flex behavior for dot container */
+    display: inline-block; /* Flex behavior for dot container */
     justify-content: center;
     align-items: center;
+    margin: 0px 10px;
     width: 2.3rem; /* Custom width */
     height: 0.4rem; /* Custom height */
-    margin: 0; /* Remove default margin */
     padding: 0;
     cursor: pointer;
 }
@@ -155,7 +158,7 @@
     background-color: black; /* Dot color */
     border-radius: 10px; /* Rounded corners */
     opacity: 0.25; /* Default opacity for inactive dots */
-    transition: opacity 0.3s ease; /* Smooth transition */
+    transition: opacity 0.3s ease, width 0.3s ease, height 0.3s ease; /* Smooth transition */
 }
 
 .slick-dots li button:hover:before,
@@ -165,4 +168,6 @@
 
 .slick-dots li.slick-active button:before {
     opacity: 0.75; /* Increase opacity for active dot */
+    width: 2.8rem; /* Increase width for active dot */
+    height: 0.5rem; /* Increase height for active dot */
 }

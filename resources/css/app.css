@@ -4,32 +4,3 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .slick-dots{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.slick-dots li {
-    display: inline-block;
-    margin: 0px 10px;
-
-}
-
-.slick-dots li button{
-    font-size: 0;
-    height: 6px;
-    width: 40px;
-    background: #1764DF;
-    opacity: 20%;
-    border-radius: 5px;
-    border: none;
-    transition: 0.5s;
-}
-
-.slick-dots .slick-active button {
-    background: #1764DF;
-    opacity: 1;
-    height: 12px;
-    width: 60px;
-} */
