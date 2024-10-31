@@ -1,7 +1,7 @@
 @props(['paragraph' => '', 'topic' => 'Social Media Management', 'price' => '18,000', 'list' => []])
 
 <div
-    class="w-[27%] h-[38rem] rounded-[2rem] shadow-xl relative hover:bottom-5 bg-white p-9 flex flex-col items-start text-[#012F6A] space-y-8">
+    class="w-[27%] h-[38rem] rounded-[2rem] shadow-xl relative hover:-translate-y-5 transition duration-1000 ease-in-out bg-white p-9 flex flex-col items-start text-[#012F6A] space-y-8">
     <h1 class="text-[1.13rem] sm:text-[1.4rem] md:text-[1.2rem] lg:text-[1.2rem] xl:text-2xl font-bold">
         {{ $topic }}</h1>
     @if (!empty($paragraph))
