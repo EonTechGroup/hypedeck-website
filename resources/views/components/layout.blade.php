@@ -20,9 +20,11 @@
     <main>
         <x-webcontent />
         <x-oursolution />
+        <x-satisfiedcustomers />
         <x-fivestep />
         <x-cusreview />
-        <x-pricingandfaq />
+        <x-pricing />
+        <x-faq />
         <x-aboutus />
         <x-toolsandteam />
         <x-successstories />

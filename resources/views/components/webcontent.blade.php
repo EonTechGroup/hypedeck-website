@@ -25,14 +25,14 @@
                     Free Consultation</button>
                 <a class="xl:h-16 lg:h-14 h-12 xl:w-16 lg:w-14 w-12 bg-[#1764DF] flex justify-center items-center rounded-full ml-2.5"
                     href="">
-                    <img class="lx:h-7 lg:h-6 h-5" src="{{ asset('images/next.png') }}" alt="next-image">
+                    <img class="lx:h-7 lg:h-6 h-5" src="{{ asset('images/next.webp') }}" alt="next-image">
                 </a>
             </div>
         </div>
         <div class="absolute inset-x-0 2xl:bottom-10 xl:bottom-12 md:bottom-10 bottom-10 flex justify-center">
             <a class="sm:h-20 sm:w-20 h-16 w-16 bg-[#1764DF] flex justify-center items-center rounded-full border-[6px] border-white"
                 href="#services">
-                <img class="h-8 rotate-90" src="{{ asset('images/next.png') }}" alt="next-image">
+                <img class="h-8 rotate-90" src="{{ asset('images/next.webp') }}" alt="next-image">
             </a>
         </div>
     </div>

@@ -105,7 +105,7 @@
                 </div>
                 <a
                     class="xl:h-16 lg:h-14 h-12 xl:w-16 lg:w-14 w-12 bg-[#1764DF] flex justify-center items-center rounded-full shadow-2xl">
-                    <img class="lx:h-7 lg:h-6 h-5 -rotate-90 lg:rotate-180" src="{{ asset('images/next.png') }}" alt="next-image">
+                    <img class="lx:h-7 lg:h-6 h-5 -rotate-90 lg:rotate-180" src="{{ asset('images/next.webp') }}" alt="next-image">
                 </a>
                 <div class="p-3 md:p-6 lg:p-6 xl:p-8 flex flex-row bg-[#1764DF] text-white rounded-lg items-center space-x-4 sm:space-x-5 md:space-x-6 lg:space-x-5 xl:space-x-7 shadow-2xl">
                     <span class="font-bold text-3xl md:text-5xl lg:text-5xl font-sans">300%</span>

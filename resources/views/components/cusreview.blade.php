@@ -10,9 +10,9 @@
                 It Was Great Experience
             </span>
 
-            <div class="responsive w-[100%]">
+            <div class="cusReview w-[100%]">
                 <x-feedbackcard name="Yuraj" />
-                <x-feedbackcard />
+                <x-feedbackcard proPic="proPic.webp" />
                 <x-feedbackcard />
                 <x-feedbackcard />
                 <x-feedbackcard />

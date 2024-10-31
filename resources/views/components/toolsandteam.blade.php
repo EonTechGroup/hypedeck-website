@@ -1,7 +1,7 @@
-<section>
+<section class="z-0 pt-[5rem]">
     <section class="flex flex-wrap justify-center pt-[5rem] pb-[7rem] px-[2rem]">
         <div class="w-full flex flex-wrap justify-center items-center max-w-[90vw] p-6 bg-[length:100%_100%] rounded-[15px] sm:rounded-[30px] h-[150px] sm:h-[300px]"
-            style="background: url('{{ asset('images/background.png') }}'); background-repeat: no-repeat; backgroind-size: cover; background-position: center">
+            style="background: url('{{ asset('images/background.webp') }}'); background-repeat: no-repeat; backgroind-size: cover; background-position: center">
             <h2 class="text-white text-[13px] sm:text-[28px] mb-[1rem] md:text-[36px] font-bold mb-6 text-center">Tools
                 And Platforms We Are Good At</h2>
         </div>
@@ -140,7 +140,7 @@
     </section>
     <section class="flex flex-wrap justify-center pb-[3rem]">
         <div class="w-full flex flex-wrap justify-center grid grid-cols-1 items-center max-w-[100vw] p-6 bg-[length:100%_100%] h-[195px] sm:h-[390px] pb-[7rem]"
-            style="background: url('{{ asset('images/full-bg.png') }}'); background-repeat: no-repeat; backgroind-size: cover; background-position: center">
+            style="background: url('{{ asset('images/full-bg.webp') }}'); background-repeat: no-repeat; backgroind-size: cover; background-position: center">
             <h2 class="text-white text-[13px] sm:text-[28px] mb-[1rem] md:text-[36px] font-bold text-center self-end">
                 It’s a Team Game</h2>
             <div
