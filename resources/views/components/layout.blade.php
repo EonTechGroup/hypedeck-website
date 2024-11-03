@@ -17,18 +17,18 @@
     </header>
 
     <main>
-        <x-webcontent />
-        <x-oursolution />
-        <x-satisfiedcustomers />
-        <x-fivestep />
-        <x-cusreview />
-        <x-pricing />
-        <x-faq />
-        <x-aboutus />
-        <x-toolsandteam />
-        <x-successstories />
-        <x-getintouch />
-        <x-footer />
+        <x-main.webcontent />
+        <x-main.oursolution />
+        <x-main.satisfiedcustomers />
+        <x-main.fivestep />
+        <x-main.cusreview />
+        <x-main.pricing />
+        <x-main.faq />
+        <x-main.aboutus />
+        <x-main.toolsandteam />
+        <x-main.successstories />
+        <x-main.getintouch />
+        <x-main.footer />
     </main>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
