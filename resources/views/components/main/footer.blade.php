@@ -1,15 +1,15 @@
 <footer class="text-white text-center  bg-blue-600" >
     <div class="py-8 px-4">
         <div class="mb-4 flex justify-center flex-col items-center">
-            <img class="max-w-36" src="{{ asset('images/logo.webp') }}" alt="HypeDeck">
-            <h1 class="text-4xl font-semibold font-sans ">Let's begin creating something amazing</h1>
-            <p class="mt-2 font-normal font-sans text-base">Join over 500+ startups already growing with HypeDeck Digital</p>
-            <button class="mt-10 px-6 py-2 bg-blue-50/15 text-white rounded-md font-semibold font-sans border hover:bg-blue-500 hover:text-white hover:border-transparent">
+            <img class="max-w-36" src="{{ asset('images/logo.webp') }}" alt="HypeDeck" data-aos="fade-up">
+            <h1 class="text-4xl font-semibold font-sans" data-aos="fade-up" data-aos-delay="100">Let's begin creating something amazing</h1>
+            <p class="mt-2 font-normal font-sans text-base" data-aos="fade-up" data-aos-delay="200">Join over 500+ startups already growing with HypeDeck Digital</p>
+            <button class="mt-10 px-6 py-2 bg-blue-50/15 text-white rounded-md font-semibold font-sans border hover:bg-blue-500 hover:text-white hover:border-transparent" data-aos="fade-up" data-aos-delay="300">
                 Book Free Consultation
             </button>
         </div>
         <div class="mt-20"></div>
-        <p class="mt-8 font-sans">Office - 2/1, 1st Floor, 272B High Level Rd, Maharagama</p>
+        <p class="mt-8 font-sans" data-aos="fade-up" data-aos-delay="400">Office - 2/1, 1st Floor, 272B High Level Rd, Maharagama</p>
     </div>
 
     <div class="min-w-full mx-auto max-w-screen-xl p-4  bg-blue-50/10">

@@ -1,6 +1,6 @@
 <section class="flex flex-col py-14 xl:py-20 items-center relative gap-[5rem]">
     <h1
-        class="text-[1.35rem] md:text-4xl font-bold bg-gradient-to-r from-[#012F6A] from-40% to-[#1764DF] to-100% bg-clip-text text-transparent text-center">
+        class="text-[1.35rem] md:text-4xl font-bold bg-gradient-to-r from-[#012F6A] from-40% to-[#1764DF] to-100% bg-clip-text text-transparent text-center" data-aos="zoom-in">
         Trusted By 100+ Satisfied Customers.</h1>
     <div class="satisfied w-full">
         <x-customerscard />
@@ -45,7 +45,7 @@
         <x-customerscard img="witco" />
     </div>
     <button
-        class="px-8 py-2 rounded-[0.8rem] md:px-10 md:py-3 md:rounded-[0.9rem] font-semibold hover:text-white hover:bg-[#1764DF] hover:border-white hover:shadow-lg duration-300 cursor-pointer border border-[#1764DF] text-[#1764DF] focus:outline-none">
+        class="px-8 py-2 rounded-[0.8rem] md:px-10 md:py-3 md:rounded-[0.9rem] font-semibold hover:text-white hover:bg-[#1764DF] hover:border-white hover:shadow-lg duration-300 cursor-pointer border border-[#1764DF] text-[#1764DF] focus:outline-none" data-aos="fade-up">
         <a href="#" class="inline-block">Read Cases</a>
     </button>
 </section>

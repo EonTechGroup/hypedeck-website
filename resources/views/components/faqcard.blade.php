@@ -5,10 +5,12 @@
     'topic' => 'What are the key metrics to measure in digital marketing?',
     'icon' => 'images/faq-icon.webp',
     'iconHover' => 'images/faq-hover.webp',
+    'aos',
+    'aosDuration' => '',
 ])
 
 <section
-    class="flex flex-col items-start p-4 sm:p-6 md:p-7 space-y-4 h-[14.5rem] sm:h-[13rem] bg-white text-[#012F6A] rounded-2xl sm:rounded-3xl shadow-lg hover:bg-[#1764DF] hover:text-white hover:shadow-[#90bafd] relative group">
+    class="flex flex-col items-start p-4 sm:p-6 md:p-7 space-y-4 h-[14.5rem] sm:h-[13rem] bg-white text-[#012F6A] rounded-2xl sm:rounded-3xl shadow-lg hover:bg-[#1764DF] hover:text-white hover:shadow-[#90bafd] relative group" data-aos="{{ $aos }}" data-aos-easing="ease-in-sine" data-aos-duration="{{ $aosDuration }}">
     <div class="flex items-center gap-3">
         <div
             class="w-12 h-12 sm:w-13 sm:h-13 md:w-14 md:h-14 flex shadow justify-center items-center rounded-full bg-[#EFF4FF] group-hover:bg-[#2E79F2] relative">

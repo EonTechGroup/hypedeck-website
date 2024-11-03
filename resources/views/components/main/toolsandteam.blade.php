@@ -1,11 +1,11 @@
 <section class="z-0 pt-[5rem]">
     <section class="flex flex-wrap justify-center pt-[5rem] pb-[7rem] px-[2rem]">
         <div class="w-full flex flex-wrap justify-center items-center max-w-[90vw] p-6 bg-[length:100%_100%] rounded-[15px] sm:rounded-[30px] h-[150px] sm:h-[300px]"
-            style="background: url('{{ asset('images/background.webp') }}'); background-repeat: no-repeat; backgroind-size: cover; background-position: center">
-            <h2 class="text-white text-[13px] sm:text-[28px] mb-[1rem] md:text-[36px] font-bold mb-6 text-center">Tools
+            style="background: url('{{ asset('images/background.webp') }}'); background-repeat: no-repeat; backgroind-size: cover; background-position: center" data-aos="fade-up" data-aos-easing="ease-in-sine">
+            <h2 class="text-white text-[13px] sm:text-[28px] mb-[1rem] md:text-[36px] font-bold mb-6 text-center" data-aos="zoom-in">Tools
                 And Platforms We Are Good At</h2>
         </div>
-        <div class="h-[auto] max-w-[65vw] min-w-[65vw] sm:w-[70vw] mt-[-3rem] sm:mt-[-7rem]">
+        <div class="h-[auto] max-w-[65vw] min-w-[65vw] sm:w-[70vw] mt-[-3rem] sm:mt-[-7rem] z-10" data-aos="fade-up" data-aos-easing="ease-in-sine">
             <div class="grid grid-cols-1 bg-red h-auto gap-y-4">
                 <div
                     class="h-fit bg-[#EFF4FF] flex rounded-[14px] px-[1rem] lg:px-[3rem] xl:px-[10rem] pt-[2rem] pb-[2.5rem] grid gird-cols-1">
@@ -39,7 +39,7 @@
                 </div>
                 <div class="h-fit flex flex-wrap md:justify-between gap-y-4 gap-x-1 sm:gap-y-0 sm:gap-x-4">
                     <div
-                        class="w-[68vw] sm:w-[30vw] md:w-[19vw] 2xl:w-[18vw] bg-[#EFF4FF] px-[1rem] lg:px-[2rem] pt-[2rem] pb-[2.5rem] rounded-[14px]">
+                        class="w-[68vw] sm:w-[30vw] md:w-[19vw] 2xl:w-[18vw] bg-[#EFF4FF] px-[1rem] lg:px-[2rem] pt-[2rem] pb-[2.5rem] rounded-[14px]" data-aos="fade-right">
                         <div class="flex flex-wrap grid grid-cols-1 justify-center">
                             <div class="flex flex-wrap justify-center mb-[1rem] sm:mb-[2rem]">
                                 <h1 class="text-[13px] sm:text-[1rem] lg:text-[20px] text-[#012F6A] font-bold text-center"
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div
-                        class="w-[68vw] sm:w-[32vw] md:w-[20vw] 2xl:w-[20.5vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start">
+                        class="w-[68vw] sm:w-[32vw] md:w-[20vw] 2xl:w-[20.5vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start" data-aos="fade-up">
                         <div class="flex flex-wrap justify-center grid grid-cols-1">
                             <div class="flex flex-wrap justify-center mb-[1rem] sm:mb-[2rem]">
                                 <h1 class="text-[13px] sm:text-[1rem] lg:text-[20px] text-[#012F6A] font-bold text-center"
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div
-                        class="w-[68vw] sm:w-[fill] md:w-[21.5vw] sm:mt-4 md:mt-0 2xl:w-[24.3vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start">
+                        class="w-[68vw] sm:w-[fill] md:w-[21.5vw] sm:mt-4 md:mt-0 2xl:w-[24.3vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start" data-aos="fade-left">
                         <div class="flex flex-wrap justify-center grid grid-cols-1">
                             <div class="flex flex-wrap justify-center mb-[1rem] sm:mb-[2rem]">
                                 <h1 class="text-[13px] sm:text-[1rem] lg:text-[20px] text-[#012F6A] font-bold text-center"
@@ -84,7 +84,7 @@
                 </div>
                 <div class="h-fit flex flex-wrap md:justify-between gap-y-4 gap-x-1 sm:gap-y-0 sm:gap-x-4">
                     <div
-                        class="w-[68vw] sm:w-[33vw] md:w-[22.5vw] 2xl:w-[25.3vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start">
+                        class="w-[68vw] sm:w-[33vw] md:w-[22.5vw] 2xl:w-[25.3vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start" data-aos="fade-right">
                         <div class="flex flex-wrap justify-center grid grid-cols-1">
                             <div class="flex flex-wrap justify-center mb-[1rem] sm:mb-[2rem]">
                                 <h1 class="text-[13px] sm:text-[1rem] lg:text-[20px] text-[#012F6A] font-bold text-center"
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                     <div
-                        class="w-[68vw] sm:w-[29.2vw] md:w-[22vw] 2xl:w-[22.5vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start">
+                        class="w-[68vw] sm:w-[29.2vw] md:w-[22vw] 2xl:w-[22.5vw] bg-[#EFF4FF] px-[1rem] lg:px-[3rem] pt-[2rem] pb-[2.5rem] rounded-[14px] justify-self-start" data-aos="fade-up">
                         <div class="flex flex-wrap justify-center grid grid-cols-1">
                             <div class="flex flex-wrap justify-center mb-[1rem] sm:mb-[2rem]">
                                 <h1 class="text-[13px] sm:text-[1rem] lg:text-[20px] text-[#012F6A] font-bold text-center"
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div
-                        class="w-[68vw] sm:w-[fill] md:w-[16vw] sm:mt-4 md:mt-0 2xl:w-[15vw] bg-[#EFF4FF] px-[1rem] lg:px-[2rem] pt-[2rem] pb-[2.5rem] rounded-[14px]">
+                        class="w-[68vw] sm:w-[fill] md:w-[16vw] sm:mt-4 md:mt-0 2xl:w-[15vw] bg-[#EFF4FF] px-[1rem] lg:px-[2rem] pt-[2rem] pb-[2.5rem] rounded-[14px]" data-aos="fade-left">
                         <div class="flex flex-wrap grid grid-cols-1 justify-center">
                             <div class="flex flex-wrap justify-center mb-[1rem] sm:mb-[2rem]">
                                 <h1 class="text-[13px] sm:text-[1rem] lg:text-[20px] text-[#012F6A] font-bold text-center"
@@ -141,12 +141,12 @@
     <section class="flex flex-wrap justify-center pb-[3rem]">
         <div class="w-full flex flex-wrap justify-center grid grid-cols-1 items-center max-w-[100vw] p-6 bg-[length:100%_100%] h-[195px] sm:h-[390px] pb-[7rem]"
             style="background: url('{{ asset('images/full-bg.webp') }}'); background-repeat: no-repeat; backgroind-size: cover; background-position: center">
-            <h2 class="text-white text-[13px] sm:text-[28px] mb-[1rem] md:text-[36px] font-bold text-center self-end">
-                It’s a Team Game</h2>
+            <h2 class="text-white text-[13px] sm:text-[28px] mb-[1rem] md:text-[36px] font-bold text-center self-end" data-aos="zoom-in">
+                It's a Team Game</h2>
             <div
                 class="flex flex-wrap h-fit w-[18rem] sm:w-[37rem] 2xl:w-[37rem] justify-self-center justify-center self-start">
                 <h2
-                    class="text-white text-[13px] sm:text-[18px] mb-[1rem] md:text-[18px] font-medium mb-6 text-center self-start">
+                    class="text-white text-[13px] sm:text-[18px] mb-[1rem] md:text-[18px] font-medium mb-6 text-center self-start" data-aos="fade-up">
                     How our team helped 100+ businesses to reach their Sales targets with Digital Marketing activities.
                 </h2>
             </div>
@@ -154,7 +154,7 @@
         <div
             class="h-[auto] justify-between grid grid-cols-1 md:grid md:grid-cols-3 max-w-[65vw] min-w-[65vw] sm:w-[70vw] mt-[-3rem] sm:mt-[-7rem]">
             <div
-                class="flex justify-center grid grid-cols-1 bg-white mt-[1rem] md:mt-[0rem] w-full md:w-[19vw] px-[1.5rem] max-h-[20px] min-h-fit rounded-[12px] shadow-md">
+                class="flex justify-center grid grid-cols-1 bg-white mt-[1rem] md:mt-[0rem] w-full md:w-[19vw] px-[1.5rem] max-h-[20px] min-h-fit rounded-[12px] shadow-md" data-aos="fade-up">
                 <div class="flex grid grid-cols-1 relative top-[-2rem] md:top-[-2.5rem]">
                     <div class="bg-[#2E79F2] max-h-fit max-w-fit justify-self-center flex rounded-full p-[1rem]">
                         <img class="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:w-[50px] lg:h-[50px]"
@@ -172,7 +172,7 @@
                 </div>
             </div>
             <div
-                class="flex justify-center bg-white w-full mt-[3rem] md:mt-[0rem] md:w-[19vw] justify-self-center px-[1.5rem] rounded-[12px] shadow-md">
+                class="flex justify-center bg-white w-full mt-[3rem] md:mt-[0rem] md:w-[19vw] justify-self-center px-[1.5rem] rounded-[12px] shadow-md" data-aos="fade-up" data-aos-delay="100">
                 <div class="flex grid grid-cols-1 relative top-[-2rem] md:top-[-2.5rem] min-h-fit max-h-fit">
                     <div class="bg-[#2E79F2] max-h-fit max-w-fit justify-self-center flex rounded-full p-[1rem]">
                         <img class="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:w-[50px] lg:h-[50px]"
@@ -191,7 +191,7 @@
                 </div>
             </div>
             <div
-                class="flex justify-center grid grid-cols-1 bg-white w-full mt-[3rem] md:mt-[0rem] md:w-[19vw] px-[1.5rem] justify-self-end max-h-[20px] min-h-fit rounded-[12px] shadow-md">
+                class="flex justify-center grid grid-cols-1 bg-white w-full mt-[3rem] md:mt-[0rem] md:w-[19vw] px-[1.5rem] justify-self-end max-h-[20px] min-h-fit rounded-[12px] shadow-md" data-aos="fade-up" data-aos-delay="200">
                 <div class="flex grid grid-cols-1 relative top-[-2rem] md:top-[-2.5rem]">
                     <div class="bg-[#2E79F2] max-h-fit max-w-fit justify-self-center flex rounded-full p-[1rem]">
                         <img class="w-[30px] h-[30px] md:w-[40px] md:h-[40px] lg:w-[50px] lg:h-[50px]"

@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <x-header></x-header>
     </header>
 
-    <main>
+    <main class="overflow-hidden">
         <x-main.webcontent />
         <x-main.oursolution />
         <x-main.satisfiedcustomers />
@@ -31,47 +32,55 @@
         <x-main.footer />
     </main>
 
+    <!-- JS Scripts -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="resources\js\app.js"></script>
-</body>
-<script>
-    function openAnsSection(val) {
-        var allParas = document.querySelectorAll('[id^="para"]');
-        var allSvgs = document.querySelectorAll('[id^="path"]');
-        var allFaqs = document.querySelectorAll('[id^="faq"]');
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="resources/js/app.js"></script>
 
-        allParas.forEach((para, index) => {
-            if (para.id !== "para" + val) {
-                para.classList.add("hidden");
-                para.classList.remove("block");
-                allSvgs[index].classList.add("block");
-                allSvgs[index].classList.remove("hidden");
-                allFaqs[index].classList.add("bg-white", "text-[#012F6A]");
-                allFaqs[index].classList.remove("bg-[#1764DF]", "text-white");
-            }
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            AOS.init({
+                duration: 700
+            });
+            openFirstFAQ();
         });
 
-        var p = document.getElementById("para" + val);
-        var svg = document.getElementById("path" + val);
-        var faq = document.getElementById("faq" + val);
+        function openAnsSection(val) {
+            var allParas = document.querySelectorAll('[id^="para"]');
+            var allSvgs = document.querySelectorAll('[id^="path"]');
+            var allFaqs = document.querySelectorAll('[id^="faq"]');
 
-        if (p.classList.contains("hidden")) {
-            p.classList.remove("hidden");
-            p.classList.add("block");
-            svg.classList.remove("block");
-            svg.classList.add("hidden");
-            faq.classList.remove("bg-white", "text-[#012F6A]");
-            faq.classList.add("bg-[#1764DF]", "text-white");
+            allParas.forEach((para, index) => {
+                if (para.id !== "para" + val) {
+                    para.classList.add("hidden");
+                    para.classList.remove("block");
+                    allSvgs[index].classList.add("block");
+                    allSvgs[index].classList.remove("hidden");
+                    allFaqs[index].classList.add("bg-white", "text-[#012F6A]");
+                    allFaqs[index].classList.remove("bg-[#1764DF]", "text-white");
+                }
+            });
+
+            var p = document.getElementById("para" + val);
+            var svg = document.getElementById("path" + val);
+            var faq = document.getElementById("faq" + val);
+
+            if (p.classList.contains("hidden")) {
+                p.classList.remove("hidden");
+                p.classList.add("block");
+                svg.classList.remove("block");
+                svg.classList.add("hidden");
+                faq.classList.remove("bg-white", "text-[#012F6A]");
+                faq.classList.add("bg-[#1764DF]", "text-white");
+            }
         }
-    }
 
-    function openFirstFAQ() {
-        openAnsSection(1);
-    }
-
-    window.onload = openFirstFAQ;
-</script>
+        function openFirstFAQ() {
+            openAnsSection(1);
+        }
+    </script>
+</body>
 
 </html>

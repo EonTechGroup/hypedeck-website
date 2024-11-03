@@ -6,11 +6,11 @@
         <div class="absolute inset-0 bg-[#ecf4ff] opacity-[0.7]"></div>
         <div class="relative py-5 md:py-24 flex flex-col items-center space-y-6  md:space-y-24 mb-[1rem]">
             <span
-                class="text-[1.35rem] md:text-4xl font-bold bg-gradient-to-r from-[#012F6A] from-40% to-[#1764DF] to-100% bg-clip-text text-transparent">
+                class="text-[1.35rem] md:text-4xl font-bold bg-gradient-to-r from-[#012F6A] from-40% to-[#1764DF] to-100% bg-clip-text text-transparent" data-aos="zoom-in" data-aos-easing="ease-in-sine">
                 It Was Great Experience
             </span>
 
-            <div class="cusReview w-[100%]">
+            <div class="cusReview w-[100%]" data-aos="zoom-in">
                 <x-feedbackcard name="Chamara Sandaruwan" proPic="chmara" paragraph="HypeDeck Digital (Pvt) Ltd. has been amazing for my marketing needs! Their team is professional, and creative, and truly understands how to boost a brand's online presence. We've seen a significant increase in social media engagement thanks to their efforts. Communication was smooth, and they always kept us informed. Highly recommend." />
                 <x-feedbackcard name='Romesh' proPic="romesh" paragraph="They listen to your needs, they are great, I have nothing to complain about, trust them, they will develop your business to the maximum by giving you valuable advice and posting good content. It's a good marketing agency." />
                 <x-feedbackcard name="Lanka Herath" proPic="lanka" paragraph="WeAssyst Marketing Agency has been a great asset to our marketing efforts. They've shown a proactive approach and really understood our brand well. What I appreciate most is their clear communication and ability to deliver results we can see. Thanks to WeAssyst." />
@@ -45,15 +45,15 @@
         <div class="relative py-5 md:py-24 flex flex-col lg:flex-row items-center lg:justify-center px-3 md:px-5 lg:px-0 gap-8 lg:gap-4">
             <div class="flex flex-col gap-4 md:gap-6 lg:w-4/12 text-center">
                 <span
-                    class="text-[1.6rem] md:text-[2.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold bg-gradient-to-r from-[#012F6A] from-40% to-[#1764DF] to-100% bg-clip-text text-transparent text-center lg:text-left">Trusted
+                    class="text-[1.6rem] md:text-[2.5rem] lg:text-[2rem] xl:text-[2.5rem] font-bold bg-gradient-to-r from-[#012F6A] from-40% to-[#1764DF] to-100% bg-clip-text text-transparent text-center lg:text-left" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="600">Trusted
                     By 100+ Happy Clients</span>
-                <p class="text-[1.1rem] md:text-[1.3rem] lg:text-[1.1rem] xl:text-[1.3rem] text-[#012F6A] text-center lg:text-left font-[410]">Our reputation for
+                <p class="text-[1.1rem] md:text-[1.3rem] lg:text-[1.1rem] xl:text-[1.3rem] text-[#012F6A] text-center lg:text-left font-[410]" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="700">Our reputation for
                     reliability and quality is <br class="hidden xl:block">affirmed by
                     the numerous satisfied customers <br class="hidden xl:block">who place their trust in us. Their
                     ongoing <br class="hidden xl:block">support and positive
                     feedback are a testament <br class="hidden xl:block">to our commitment to excellence.</p>
             </div>
-            <div class="w-full lg:w-[54%]">
+            <div class="w-full lg:w-[54%]" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <x-reviewcard />
             </div>
         </div>
