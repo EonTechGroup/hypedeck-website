@@ -1,6 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 480px) and (max-width: 600px) {
+    .customerCard {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 640px) {
+    .customerCard {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media (min-width: 479px) and (max-width: 640px) {
+    .solutionCard {
+        height: 15rem;
+    }
+}

@@ -1,13 +1,11 @@
 <section class="flex flex-col justify-center text-white relative">
     <div
-        class="flex flex-col items-center xl:py-16 w-full h-[30rem] bg-[url(../../public/images/bg-pricing.webp)] bg-cover bg-center z-10">
-        <span class="text-[1.35rem] sm:text-[2rem] md:text-3xl lg:text-3xl xl:text-4xl font-bold mb-2">Transparent And
-            Straightforward</span>
-        <span class="text-[1.35rem] sm:text-[2rem] md:text-3xl lg:text-3xl xl:text-4xl font-bold mb-8">Pricing You Can
-            Trust</span>
-        <span class="text-[1.35rem] sm:text-[2rem] md:text-3xl lg:text-xl">We are ready to provide a customized package
+        class="flex flex-col items-center py-10 px-3 lg:px-4 sm:py-16 md:py-16 w-full h-[30rem] bg-cover bg-center z-10" style="background-image: url('{{ asset('images/bg-pricing.webp') }}');">
+        <span class="text-[1.35rem] sm:text-[2rem] md:text-3xl lg:text-3xl xl:text-4xl font-bold mb-4 md:mb-6 text-center leading-[2rem] sm:leading-[2.7rem] md:leading-[3rem] xl:leading-[3rem]">Transparent And
+            Straightforward <br class="hidden sm:block">Pricing You Can Trust</span>
+        <span class="text-[0.93rem] sm:text-[1.1rem] md:text-[1.2rem] lg:text-xl text-center mb-5 sm:mb-8 md:mb-10 lg:mb-0">We are ready to provide a customized package
             to cater your exact marketing needs.</span>
-        <div class="flex xl:space-x-6 w-full justify-center xl:mt-20 text-black">
+        <div class="flex flex-col md:flex-row gap-6 md:gap-4 lg:gap-6 w-full sm:w-7/12 md:w-full items-center md:justify-center md:items-center lg:mt-16 xl:mt-20 text-black">
             <x-pricingcard topic="Social Media Management" price="18,000"
                 paragraph="For businesses to cultivate brand visibility, engage with audiences, and drive sales."
                 :list="[
@@ -40,5 +38,5 @@
             ]" />
         </div>
     </div>
-    <div class="bg-white h-[31rem] w-full border"></div>
+    <div class="bg-white h-[74rem] sm:h-[76rem] md:h-[18rem] lg:h-[28rem] xl:h-[30rem] w-full"></div>
 </section>
